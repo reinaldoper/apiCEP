@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+li {
+  list-style-type: none;
+}
+
+input {
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  font-size: larger;
+}
+button {
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  font-size:small;
+  margin-left: 20px;
+  /* margin-bottom: 15px; */
+}
+
