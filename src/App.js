@@ -21,15 +21,14 @@ function App() {
       alert('CEP incorreto!');
     }
     setFetch(r);
+    document.querySelector('input').value = '';
   };
   return (
     <div className="App">
       <header className="App-header">
         <h2>Aplicação de localizar CEP</h2>
-        <div className='div-center'>
           <input type='text' placeholder='Seu CEP aqui!' onChange={ handChange }/>
           <button type='button' onClick={ handClick }>LER CEP</button>
-        </div>
         <ol>
             <li><h4>cep: { fetch.cep }</h4></li>
             <li><h4>logradouro: { fetch.logradouro }</h4></li>
